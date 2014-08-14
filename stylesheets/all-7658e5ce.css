@@ -6904,7 +6904,7 @@ section.current-season {
 
 /* line 1, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
 .join-banner {
-  height: 250px;
+  height: 320px;
   background-image: url("/images/assassins-banner-7be6935e.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -6918,7 +6918,7 @@ section.current-season {
     transform: translateY(70%); }
   /* line 16, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
   .join-banner .join-header {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 100%; }
 
 /* line 22, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
