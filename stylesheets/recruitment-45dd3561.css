@@ -1,0 +1,54 @@
+/* line 1, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+.join-banner {
+  height: 250px;
+  background-image: url("/images/assassins-banner-7be6935e.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0% 30%; }
+  /* line 8, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .join-banner h1 {
+    margin-top: 0;
+    color: #FFF;
+    -webkit-transform: translateY(70%);
+    -ms-transform: translateY(70%);
+    transform: translateY(70%); }
+  /* line 16, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .join-banner .join-header {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%; }
+
+/* line 22, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+.join-tail {
+  background-color: #000; }
+  /* line 25, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .join-tail h2 {
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFF; }
+
+/* line 33, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+.npp-banner {
+  background-color: #000;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFF; }
+  /* line 40, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .npp-banner h2 {
+    margin-top: 0;
+    color: #FFF; }
+
+/* line 46, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+.tisbert-banner {
+  background-color: #d37130;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFF; }
+  /* line 52, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .tisbert-banner h2 {
+    margin-top: 0;
+    color: #FFF; }
+  /* line 57, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .tisbert-banner img {
+    width: 100%; }

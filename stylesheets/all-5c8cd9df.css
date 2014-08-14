@@ -6863,7 +6863,7 @@ section.current-season {
 
 /* line 321, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .footer {
-  margin-top: 20px;
+  margin-top: 10px;
   border-top-width: 10px;
   border-top-style: solid;
   border-top-color: #d37130;
@@ -6905,49 +6905,73 @@ section.current-season {
 /* line 1, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
 .join-banner {
   height: 250px;
-  margin-top: 15px;
   background-image: url("/images/assassins-banner-7be6935e.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0% 30%; }
-  /* line 9, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  /* line 8, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
   .join-banner h1 {
     margin-top: 0;
-    color: #FFF; }
-  /* line 14, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+    color: #FFF;
+    -webkit-transform: translateY(70%);
+    -ms-transform: translateY(70%);
+    transform: translateY(70%); }
+  /* line 16, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
   .join-banner .join-header {
-    background-color: rgba(0, 0, 0, 0.2); }
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%; }
 
-/* line 19, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+/* line 22, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
 .join-tail {
   background-color: #000; }
-  /* line 22, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  /* line 25, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
   .join-tail h2 {
     margin-top: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     color: #FFF; }
 
-/* line 30, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+/* line 33, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
 .npp-banner {
   background-color: #000;
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #FFF; }
-  /* line 37, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  /* line 40, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
   .npp-banner h2 {
     margin-top: 0;
     color: #FFF; }
 
-/* line 43, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+/* line 46, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
 .tisbert-banner {
   background-color: #d37130;
-  margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #FFF; }
-  /* line 50, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  /* line 52, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
   .tisbert-banner h2 {
     margin-top: 0;
+    color: #FFF; }
+  /* line 57, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .tisbert-banner img {
+    width: 100%; }
+
+/* line 1, /Users/mozilla/code/scotch-public/source/stylesheets/npp.css.scss */
+.npp-content {
+  background: #000;
+  color: #FFF; }
+  /* line 5, /Users/mozilla/code/scotch-public/source/stylesheets/npp.css.scss */
+  .npp-content h1 {
+    color: #FFF; }
+  /* line 9, /Users/mozilla/code/scotch-public/source/stylesheets/npp.css.scss */
+  .npp-content h2 {
+    color: #FFF; }
+
+/* line 1, /Users/mozilla/code/scotch-public/source/stylesheets/tisbert.css.scss */
+.tisbert-content {
+  background-color: #d37130;
+  color: #FFF; }
+  /* line 5, /Users/mozilla/code/scotch-public/source/stylesheets/tisbert.css.scss */
+  .tisbert-content h1 {
     color: #FFF; }
