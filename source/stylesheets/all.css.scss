@@ -1,5 +1,5 @@
-$scotch-color: #ed7220;
-$sns-border: #d37130;
+$scotch-color: #d37130;
+$sns-border: $scotch-color;
 
 $brand-primary: $scotch-color;
 $brand-info: #f1f1f1;
@@ -54,12 +54,6 @@ h2
   text-align: center;
 }
 
-h3
-{
-  width: 100%;
-  text-align: center;
-}
-
 abbr[title]
 {
   border-bottom-style: none;
@@ -75,8 +69,7 @@ abbr[title]
   background-color: #fafafa;
   height: 100%;
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: rgba(0, 0, 0, .1);
@@ -86,6 +79,7 @@ abbr[title]
 {
   position: static;
   margin-bottom: -10px;
+  padding-bottom: 5px;
   border-bottom-width: 10px;
   border-bottom-style: solid;
   border-bottom-color: $sns-border;
@@ -385,3 +379,5 @@ section.current-season
     color: white;
   }
 }
+
+@import "recruitment";
