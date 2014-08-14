@@ -1159,11 +1159,11 @@ textarea {
 
 /* line 48, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #ed7220;
+  color: #d37130;
   text-decoration: none; }
   /* line 53, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:hover, a:focus {
-    color: #b2500e;
+    color: #974f20;
     text-decoration: underline; }
   /* line 58, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:focus {
@@ -1390,11 +1390,11 @@ mark,
 
 /* line 5, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #ed7220; }
+  color: #d37130; }
 
 /* line 8, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover {
-  color: #ca5a10; }
+  color: #ac5a24; }
 
 /* line 5, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-success {
@@ -1434,11 +1434,11 @@ a.text-danger:hover {
 
 /* line 5, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #ed7220; }
+  background-color: #d37130; }
 
 /* line 8, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover {
-  background-color: #ca5a10; }
+  background-color: #ac5a24; }
 
 /* line 5, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-success {
@@ -3383,23 +3383,23 @@ select[multiple].input-lg,
 /* line 60, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: white;
-  background-color: #ed7220;
-  border-color: #e16512; }
+  background-color: #d37130;
+  border-color: #c16529; }
   /* line 15, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     color: white;
-    background-color: #ca5a10;
-    border-color: #a94c0e; }
+    background-color: #ac5a24;
+    border-color: #8e4b1e; }
   /* line 22, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     background-image: none; }
   /* line 32, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-    background-color: #ed7220;
-    border-color: #e16512; }
+    background-color: #d37130;
+    border-color: #c16529; }
   /* line 38, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary .badge {
-    color: #ed7220;
+    color: #d37130;
     background-color: white; }
 
 /* line 64, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3492,7 +3492,7 @@ select[multiple].input-lg,
 
 /* line 85, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #ed7220;
+  color: #d37130;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0; }
@@ -3506,7 +3506,7 @@ select[multiple].input-lg,
     border-color: transparent; }
   /* line 105, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link:hover, .btn-link:focus {
-    color: #b2500e;
+    color: #974f20;
     text-decoration: underline;
     background-color: transparent; }
   /* line 113, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3655,7 +3655,7 @@ tbody.collapse.in {
   color: white;
   text-decoration: none;
   outline: 0;
-  background-color: #ed7220; }
+  background-color: #d37130; }
 
 /* line 103, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
@@ -4093,7 +4093,7 @@ tbody.collapse.in {
   /* line 48, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_navs.scss */
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #ed7220; }
+    border-color: #d37130; }
   /* line 59, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_navs.scss */
   .nav .nav-divider {
     height: 1px;
@@ -4140,7 +4140,7 @@ tbody.collapse.in {
   /* line 133, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_navs.scss */
   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: white;
-    background-color: #ed7220; }
+    background-color: #d37130; }
 
 /* line 144, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_navs.scss */
 .nav-stacked > li {
@@ -4704,7 +4704,7 @@ tbody.collapse.in {
       padding: 6px 12px;
       line-height: 1.428571429;
       text-decoration: none;
-      color: #ed7220;
+      color: #d37130;
       background-color: white;
       border: 1px solid #dddddd;
       margin-left: -1px; }
@@ -4723,7 +4723,7 @@ tbody.collapse.in {
   .pagination > li > a:hover, .pagination > li > a:focus,
   .pagination > li > span:hover,
   .pagination > li > span:focus {
-    color: #b2500e;
+    color: #974f20;
     background-color: #eeeeee;
     border-color: #dddddd; }
   /* line 53, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_pagination.scss */
@@ -4733,8 +4733,8 @@ tbody.collapse.in {
   .pagination > .active > span:focus {
     z-index: 2;
     color: white;
-    background-color: #ed7220;
-    border-color: #ed7220;
+    background-color: #d37130;
+    border-color: #d37130;
     cursor: default; }
   /* line 68, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_pagination.scss */
   .pagination > .disabled > span,
@@ -4861,10 +4861,10 @@ a.label:hover, a.label:focus {
 
 /* line 48, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
-  background-color: #ed7220; }
+  background-color: #d37130; }
   /* line 8, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-primary[href]:hover, .label-primary[href]:focus {
-    background-color: #ca5a10; }
+    background-color: #ac5a24; }
 
 /* line 52, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-success {
@@ -4921,7 +4921,7 @@ a.label:hover, a.label:focus {
     padding: 1px 5px; }
   /* line 40, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_badges.scss */
   a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-    color: #ed7220;
+    color: #d37130;
     background-color: white; }
   /* line 44, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_badges.scss */
   .nav-pills > li > a > .badge {
@@ -5001,7 +5001,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #ed7220; }
+  border-color: #d37130; }
 
 /* line 9, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_alerts.scss */
 .alert {
@@ -5121,7 +5121,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: white;
   text-align: center;
-  background-color: #ed7220;
+  background-color: #d37130;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -5281,8 +5281,8 @@ a.list-group-item {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: white;
-  background-color: #ed7220;
-  border-color: #ed7220; }
+  background-color: #d37130;
+  border-color: #d37130; }
   /* line 100, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.active .list-group-item-heading,
   .list-group-item.active .list-group-item-heading > small,
@@ -5294,7 +5294,7 @@ a.list-group-item {
     color: inherit; }
   /* line 103, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-    color: #fce9dd; }
+    color: #f7e4d8; }
 
 /* line 4, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-success {
@@ -5628,22 +5628,22 @@ a.list-group-item-danger {
 
 /* line 229, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: #ed7220; }
+  border-color: #d37130; }
   /* line 6, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-primary > .panel-heading {
     color: white;
-    background-color: #ed7220;
-    border-color: #ed7220; }
+    background-color: #d37130;
+    border-color: #d37130; }
     /* line 11, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-      border-top-color: #ed7220; }
+      border-top-color: #d37130; }
     /* line 14, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-primary > .panel-heading .badge {
-      color: #ed7220;
+      color: #d37130;
       background-color: white; }
   /* line 20, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #ed7220; }
+    border-bottom-color: #d37130; }
 
 /* line 232, /Users/mozilla/.rvm/gems/ruby-2.1.2/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_panels.scss */
 .panel-success {
@@ -6649,7 +6649,7 @@ h1 {
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
-  color: #ed7220;
+  color: #d37130;
   text-align: center;
   font-size: 72px; }
   /* line 38, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
@@ -6660,47 +6660,42 @@ h1 {
 /* line 45, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 h1.invert {
   color: white;
-  background-color: #ed7220; }
+  background-color: #d37130; }
 
 /* line 51, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 h2 {
-  color: #ed7220;
+  color: #d37130;
   width: 100%;
   text-align: center; }
 
 /* line 58, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
-h3 {
-  width: 100%;
-  text-align: center; }
-
-/* line 64, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 abbr[title] {
   border-bottom-style: none; }
 
-/* line 69, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 63, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .sns-logo {
   height: 30px; }
 
-/* line 74, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 68, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .sns-content {
   background-color: #fafafa;
   height: 100%;
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: rgba(0, 0, 0, 0.1); }
 
-/* line 86, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 79, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .navbar {
   position: static;
   margin-bottom: -10px;
+  padding-bottom: 5px;
   border-bottom-width: 10px;
   border-bottom-style: solid;
   border-bottom-color: #d37130; }
 
-/* line 99, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 93, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .sns-nav {
   height: 35px;
   list-style: none;
@@ -6710,18 +6705,18 @@ abbr[title] {
   border-bottom-width: 1px;
   border-bottom-color: rgba(0, 0, 0, 0.08);
   background-color: white; }
-  /* line 113, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 107, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .sns-nav ul {
     position: relative;
     display: block;
     float: left;
     margin-top: 10px;
     margin-left: 10px; }
-  /* line 122, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 116, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .sns-nav li {
     display: block;
     float: left; }
-    /* line 127, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+    /* line 121, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
     .sns-nav li a {
       float: none;
       padding: 9px 10px 11px;
@@ -6729,16 +6724,16 @@ abbr[title] {
       text-decoration: none;
       font-size: 16px;
       text-transform: uppercase; }
-    /* line 137, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+    /* line 131, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
     .sns-nav li a:hover {
       background-color: #FF9500;
       color: white; }
-    /* line 143, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+    /* line 137, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
     .sns-nav li a.active {
       background-color: #FF9500;
       color: white; }
 
-/* line 155, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 149, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .scotch-button {
   float: right;
   display: inline;
@@ -6748,33 +6743,33 @@ abbr[title] {
   font-size: 16px;
   text-transform: uppercase; }
 
-/* line 166, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 160, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .scotch-button:hover {
   text-decoration: none;
   color: white;
   background-color: #FF9500; }
 
-/* line 173, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 167, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .main-banner {
   width: 300px;
   height: 300px; }
 
-/* line 179, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 173, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 #main-carousel .carousel-inner {
   height: 300px; }
 
-/* line 184, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 178, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .hero {
   background: url("/images/debut_dark.png");
   min-height: 300px; }
 
-/* line 190, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 184, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .production-info {
   margin-top: 10px;
   width: 100%;
   color: #383838;
   padding: 10px 10px 10px 10px; }
-  /* line 198, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 192, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .production-info .title {
     margin-bottom: 10px;
     color: #383838;
@@ -6783,59 +6778,59 @@ abbr[title] {
     border-bottom-color: #DEDEDE;
     border-bottom-width: 1px;
     text-transform: uppercase; }
-  /* line 209, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 203, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .production-info .directors {
     text-align: center;
     margin-bottom: 10px;
     text-transform: uppercase; }
-    /* line 213, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+    /* line 207, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
     .production-info .directors span {
       font-weight: bold; }
-  /* line 222, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 216, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .production-info .description {
     color: #969696;
     max-height: 100px;
     overflow: scroll; }
-  /* line 229, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 223, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .production-info .coming-soon {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     font-size: 16px;
     text-align: center; }
 
-/* line 238, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 232, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .ticket-form {
   width: 100%;
   color: #383838;
   font-family: 'Tauri', sans-serif;
   padding: 10px 10px 0px 10px; }
-  /* line 240, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 234, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .ticket-form h5 {
     font-size: 24px;
     margin-bottom: 10px; }
-  /* line 250, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 244, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .ticket-form form {
     width: 350px; }
 
-/* line 260, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 254, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .ticket-info .total {
   font-size: 18px; }
-/* line 265, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 259, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .ticket-info ul {
   list-style-type: none;
   margin-left: 0; }
-  /* line 270, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 264, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .ticket-info ul li {
     color: #969696; }
 
-/* line 277, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 271, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 section.current-season {
   background-color: #FF9500; }
-  /* line 281, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 275, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   section.current-season h2 {
     text-shadow: 0px 2px 2px #D67D00; }
 
-/* line 292, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 286, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .page-section {
   margin-top: 20px;
   width: 100%;
@@ -6851,12 +6846,12 @@ section.current-season {
   border-radius: 5px;
   padding: 10px 10px 10px 10px;
   font-family: 'Tauri', sans-serif; }
-  /* line 309, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 303, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .page-section p {
     font-size: 14px;
     text-indent: 30px; }
 
-/* line 316, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 310, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .page-title {
   margin-bottom: 10px;
   color: #383838;
@@ -6866,7 +6861,7 @@ section.current-season {
   border-bottom-width: 1px;
   text-transform: uppercase; }
 
-/* line 327, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 321, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .footer {
   margin-top: 20px;
   border-top-width: 10px;
@@ -6874,35 +6869,85 @@ section.current-season {
   border-top-color: #d37130;
   padding: 10px; }
 
-/* line 340, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 334, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .show-seasons .show-season {
   padding-bottom: 10px;
   padding-right: 5px;
   padding-left: 5px; }
-/* line 347, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 341, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .show-seasons .show-show {
   margin-bottom: 10px; }
-/* line 352, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 346, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .show-seasons .show-season:nth-child(odd) {
-  background-color: #ed7220; }
-/* line 357, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  background-color: #d37130; }
+/* line 351, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .show-seasons .show-season:nth-child(even) {
   background-color: #FFF; }
-  /* line 359, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 353, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .show-seasons .show-season:nth-child(even) h2 {
     color: #FF9500; }
 
-/* line 369, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+/* line 363, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .anniversary-story {
-  background-color: #ed7220;
+  background-color: #d37130;
   padding-bottom: 10px;
   -webkit-box-shadow: inset 0px 3px 3px 1px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0px 3px 3px 1px rgba(0, 0, 0, 0.1); }
-  /* line 377, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 371, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .anniversary-story a {
     color: #FFF; }
-  /* line 382, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  /* line 376, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
   .anniversary-story p {
     width: 100%;
     text-align: center;
     color: white; }
+
+/* line 1, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+.join-banner {
+  height: 250px;
+  margin-top: 15px;
+  background-image: url("/images/assassins-banner-7be6935e.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0% 30%; }
+  /* line 9, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .join-banner h1 {
+    margin-top: 0;
+    color: #FFF; }
+  /* line 14, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .join-banner .join-header {
+    background-color: rgba(0, 0, 0, 0.2); }
+
+/* line 19, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+.join-tail {
+  background-color: #000; }
+  /* line 22, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .join-tail h2 {
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFF; }
+
+/* line 30, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+.npp-banner {
+  background-color: #000;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFF; }
+  /* line 37, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .npp-banner h2 {
+    margin-top: 0;
+    color: #FFF; }
+
+/* line 43, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+.tisbert-banner {
+  background-color: #d37130;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFF; }
+  /* line 50, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
+  .tisbert-banner h2 {
+    margin-top: 0;
+    color: #FFF; }
