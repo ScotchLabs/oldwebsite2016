@@ -3,9 +3,10 @@ $dark-orange: #d37130;
 
 .alumni-content {
   .alumni-header {
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: $light-orange;
+    margin-bottom: 20px;
+    border-bottom-width: 5px;
+    border-bottom-style: dashed;
+    border-bottom-color: $dark-orange;
   }
 
   h1.big {
