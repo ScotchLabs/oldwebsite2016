@@ -1,0 +1,21 @@
+/* line 5, /Users/mozilla/code/scotch-public/source/stylesheets/alumni.css.scss */
+.alumni-content .alumni-header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ed7220; }
+/* line 11, /Users/mozilla/code/scotch-public/source/stylesheets/alumni.css.scss */
+.alumni-content h1.big {
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 80px; }
+/* line 18, /Users/mozilla/code/scotch-public/source/stylesheets/alumni.css.scss */
+.alumni-content h2 {
+  margin-top: 0;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 56px; }
+/* line 26, /Users/mozilla/code/scotch-public/source/stylesheets/alumni.css.scss */
+.alumni-content .endowment-banner {
+  height: 400px; }

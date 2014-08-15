@@ -73,22 +73,23 @@
   .endowment .bigger h2 {
     font-size: 112px; }
   /* line 96, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
-  .endowment .bricks {
-    height: 800px; }
-    /* line 99, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
-    .endowment .bricks .brick {
-      position: absolute;
-      height: 120px;
-      width: 215px;
-      border-radius: 15px;
-      background-color: #d37130; }
-  /* line 108, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
   .endowment .allcaps {
     text-transform: uppercase; }
-  /* line 112, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  /* line 100, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
   .endowment .cta {
     display: none; }
-  /* line 116, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  /* line 104, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
   .endowment .cta-content {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9); }
+
+/* line 110, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+.bricks {
+  height: 800px; }
+  /* line 113, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .bricks .brick {
+    position: absolute;
+    height: 120px;
+    width: 215px;
+    border-radius: 15px;
+    background-color: #d37130; }
