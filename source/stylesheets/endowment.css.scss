@@ -93,18 +93,6 @@ $dark-orange: #d37130;
     }
   }
   
-  .bricks {
-    height: 800px;
-
-    .brick {
-      position: absolute;
-      height: 120px;
-      width: 215px;
-      border-radius: 15px;
-      background-color: #d37130;
-    }
-  }
-
   .allcaps {
     text-transform: uppercase;
   }
@@ -118,3 +106,16 @@ $dark-orange: #d37130;
     background-color: rgba(255, 255, 255, 0.9);
   }
 }
+
+.bricks {
+  height: 800px;
+
+  .brick {
+    position: absolute;
+    height: 120px;
+    width: 215px;
+    border-radius: 15px;
+    background-color: #d37130;
+  }
+}
+
