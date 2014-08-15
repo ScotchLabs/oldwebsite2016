@@ -1,0 +1,120 @@
+$light-orange: #ed7220;
+$dark-orange: #d37130;
+
+.endowment {
+  min-height: 800px;
+  background-color: #FFF;
+  overflow: hidden;
+  font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue';
+
+  .slide {
+    display: none;
+  }
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 80px;
+  }
+
+  h2 {
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 56px;
+  }
+
+  h3 {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+  }
+
+  p {
+    font-family: 'Helvetica';
+    font-size: 18px;
+  }
+
+  a.btn-primary {
+    font-family: 'Helvetica';
+    font-size: 24px;
+    border-color: $light-orange;
+    background-color: $light-orange;
+  }
+
+  .orange {
+    color: $light-orange;
+  }
+
+  .dark-orange {
+    color: $dark-orange;
+  }
+
+  strong {
+    color: #ed7220;
+  }
+
+  .play-button {
+    margin-top: 200px;
+  }
+
+  .cmu-bg {
+    height: 799px;
+    background-image: url('/images/cmu-overhead.jpg');
+
+    .cmu-inner {
+      -webkit-transform: translateY(75%);
+      -ms-transform: translateY(75%);
+      transform: translateY(75%);
+    }
+
+    h1 {
+      color: #d37130;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    }
+
+    h2 {
+      color: #d37130;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    }
+  }
+
+  .bigger {
+    h1 {
+      margin: 0;
+      font-size: 256px;
+    }
+
+    h2 {
+      font-size: 112px;
+    }
+  }
+  
+  .bricks {
+    height: 800px;
+
+    .brick {
+      position: absolute;
+      height: 120px;
+      width: 215px;
+      border-radius: 15px;
+      background-color: #d37130;
+    }
+  }
+
+  .allcaps {
+    text-transform: uppercase;
+  }
+
+  .cta {
+    display: none;
+  }
+
+  .cta-content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+}
