@@ -14,6 +14,8 @@ $(document).ready(function() {
         complete: completeAnimation(self, count, true)
       });
     } else {
+      if ($(self).hasClass('slow'))
+        delay = 8000;
       $(self).velocity(outs[count % outs.length], {
         delay: delay || 4000,
         complete: function() {
