@@ -6975,3 +6975,98 @@ section.current-season {
   /* line 5, /Users/mozilla/code/scotch-public/source/stylesheets/tisbert.css.scss */
   .tisbert-content h1 {
     color: #FFF; }
+
+/* line 4, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+.endowment {
+  min-height: 800px;
+  background-color: #FFF;
+  overflow: hidden;
+  font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue'; }
+  /* line 10, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment .slide {
+    display: none; }
+  /* line 14, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment h1 {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 80px; }
+  /* line 21, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment h2 {
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 56px; }
+  /* line 29, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment h3 {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 36px; }
+  /* line 36, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment p {
+    font-family: 'Helvetica';
+    font-size: 18px; }
+  /* line 41, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment a.btn-primary {
+    font-family: 'Helvetica';
+    font-size: 24px;
+    border-color: #ed7220;
+    background-color: #ed7220; }
+  /* line 48, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment .orange {
+    color: #ed7220; }
+  /* line 52, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment .dark-orange {
+    color: #d37130; }
+  /* line 56, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment strong {
+    color: #ed7220; }
+  /* line 60, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment .play-button {
+    margin-top: 200px; }
+  /* line 64, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment .cmu-bg {
+    height: 799px;
+    background-image: url("/images/cmu-overhead-aee5e1ed.jpg"); }
+    /* line 68, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+    .endowment .cmu-bg .cmu-inner {
+      -webkit-transform: translateY(75%);
+      -ms-transform: translateY(75%);
+      transform: translateY(75%); }
+    /* line 74, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+    .endowment .cmu-bg h1 {
+      color: #d37130;
+      text-shadow: 1px 1px 2px black; }
+    /* line 79, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+    .endowment .cmu-bg h2 {
+      color: #d37130;
+      text-shadow: 1px 1px 2px black; }
+  /* line 86, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment .bigger h1 {
+    margin: 0;
+    font-size: 256px; }
+  /* line 91, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment .bigger h2 {
+    font-size: 112px; }
+  /* line 96, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment .bricks {
+    height: 800px; }
+    /* line 99, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+    .endowment .bricks .brick {
+      position: absolute;
+      height: 120px;
+      width: 215px;
+      border-radius: 15px;
+      background-color: #d37130; }
+  /* line 108, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment .allcaps {
+    text-transform: uppercase; }
+  /* line 112, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment .cta {
+    display: none; }
+  /* line 116, /Users/mozilla/code/scotch-public/source/stylesheets/endowment.css.scss */
+  .endowment .cta-content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); }
