@@ -391,6 +391,17 @@ section.current-season
   }
 }
 
+.footlights {
+  background-image: url('/images/footlights-banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+
+  a {
+    margin-top: 223px;
+  }
+}
+
 @import "recruitment";
 @import "npp";
 @import "tisbert";
