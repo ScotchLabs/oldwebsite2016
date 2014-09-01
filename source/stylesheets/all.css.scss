@@ -380,6 +380,17 @@ section.current-season
   }
 }
 
+.how-to-succeed {
+  background-image: url('/images/h2s-auditions.jpg');
+  background-repeat: no-repeat;
+  background-size: 1150px;
+  height: 400px;
+  
+  a {
+    margin-top: 20px;
+  }
+}
+
 @import "recruitment";
 @import "npp";
 @import "tisbert";
