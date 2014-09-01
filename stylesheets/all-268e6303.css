@@ -6912,6 +6912,16 @@ section.current-season {
   .how-to-succeed a {
     margin-top: 20px; }
 
+/* line 394, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+.footlights {
+  background-image: url("/images/footlights-banner-abf3d195.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px; }
+  /* line 400, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  .footlights a {
+    margin-top: 223px; }
+
 /* line 1, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
 .join-banner {
   width: 100%;
