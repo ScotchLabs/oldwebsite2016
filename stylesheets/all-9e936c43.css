@@ -6902,6 +6902,16 @@ section.current-season {
     text-align: center;
     color: white; }
 
+/* line 383, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+.how-to-succeed {
+  background-image: url("/images/h2s-auditions-a0cb668c.jpg");
+  background-repeat: no-repeat;
+  background-size: 1150px;
+  height: 400px; }
+  /* line 389, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
+  .how-to-succeed a {
+    margin-top: 20px; }
+
 /* line 1, /Users/mozilla/code/scotch-public/source/stylesheets/recruitment.css.scss */
 .join-banner {
   width: 100%;
