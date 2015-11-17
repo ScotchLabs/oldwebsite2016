@@ -6863,7 +6863,8 @@ section.current-season {
 
 /* line 321, /Users/mozilla/code/scotch-public/source/stylesheets/all.css.scss */
 .footer {
-  margin-top: 10px;
+  /*margin-top: 10px;*/
+  /* i really don't think this should be here, for this show, or any other. it pushes up into the main header image's space so the orange bars aren't flush with the image (which, i assume, is how most pages should look) */ 
   border-top-width: 10px;
   border-top-style: solid;
   border-top-color: #d37130;
