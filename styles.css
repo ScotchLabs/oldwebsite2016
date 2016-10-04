@@ -1,0 +1,48 @@
+body { 
+
+background: #222233;
+color: #AACCFF;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+
+
+
+.content {
+	height: 400px;
+	width: 800px;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: left;
+
+    a {
+    text-decoration-style: none;
+    color: #AACCFF;
+
+	}
+   
+}
+
+
+#hi{
+	font-size: 60px;
+	text-align: left;
+}
+ #name {
+
+ 	font-size: 60px;
+    margin-bottom: 20px;
+
+ }
+
+ #proj{
+    margin-top: 20px;
+
+ }
