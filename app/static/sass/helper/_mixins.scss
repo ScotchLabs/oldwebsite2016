@@ -1,0 +1,19 @@
+@mixin transition-duration($duration) {
+  transition-duration: $duration;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -o-transition-duration: $duration;
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+}
+
+@mixin transition-delay($time) {
+  transition-delay: $time;
+  -webkit-transition-delay: $time;
+  -moz-transition-delay: $time;
+  -o-transition-delay: $time;
+}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!--Announcements Tab-->
+
+    <div class="tab">announcements
+      <div class="content">
+        Hey, you!  Why don't you <a href="https://docs.google.com/spreadsheets/d/1_BLURhYCyRS_8bwl0RI1tJcR1J7hGx49gC0yd2t_mYE/edit">audition for Tisbert!</a> 
+      </div>
+    </div>
+      
+<!--That white box that establishes how long we've been breaking legs-->
+
+  <div class="homebox" align="right">
+    <h1>
+      Scotch'n'Soda Theatre
+    </h1>
+    <div class="text">
+      Breaking legs at Carnegie Mellon University since 1907!
+    </div>
+  </div>
+
+<!--Slick Carousel | Made by kenwheeler at Github  and modified by me-->
+
+  <div class="slideshow" align="center">
+    <div><img src="{{ url_for('static', filename='images/homepage1.jpg') }}"></div>
+    <div><img src="{{ url_for('static', filename='images/homepage2.jpg') }}"></div>
+    <div><img src="{{ url_for('static', filename='images/homepage3.jpg') }}"></div>
+    <div><img src="{{ url_for('static', filename='images/homepage4.jpg') }}"></div>
+    <div><img src="{{ url_for('static', filename='images/homepage5.jpg') }}"></div>
+  </div>
+
+  <script type="text/javascript" src="{{ url_for('static', filename='slick/slick.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/slideshow.js') }}"></script>
+
+{% endblock %}

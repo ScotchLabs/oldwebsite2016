@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block content %}
+
+  <div class="container">
+
+    <h1 style="text-align: left;">
+      Subtroupes
+    </h1>
+  
+    <h2>
+      Scotch'n'Soda Theatre is home to Tisbert<br>
+      Sketch Comedy, The No Parking Players<br>
+      Improv, and Workshopping for writers.
+    </h2>
+
+    <h1 style="text-align: left; padding-top: 30px;">
+      Tisbert Sketch Comedy 
+    </h1>
+
+    <h2>
+      To get involved, join <b><a href="https://www.facebook.com/TisbertSketchComedy">the Facebook page</a></b> 
+      or email <a href="mailto:whatistisbert@gmail.com"><b>whatistisbert@gmail.com</b></a> 
+    </h2>
+
+    <table cellspacing="10" cellpadding="10" style="margin-left: -20px;"><tr>
+      
+      <td valign="top" style="width: 500px; line-height: 150%;"><h3>
+        {{ tisbert_text }}
+      </h3></td>
+
+      <td>
+        <img width="500px" style="margin-bottom: 10px" src="{{ url_for('static', filename="images/tisbert1.jpg")  }}"/><br>
+        <img width="500px" src="{{ url_for('static', filename="images/tisbert2.jpg")  }}"/>
+      </td>
+  
+    </tr></table>
+
+    <h1 style="text-align: left">
+      The No Parking Players 
+    </h1>
+
+    <h2>
+      More information at <a href="http://www.thenoparkingplayers.com"><b>thenoparkingplayers.com</b></a> 
+    </h2>
+
+    <table cellspacing="10" cellpadding="10" style="margin-left: -20px;"><tr>
+
+      <td valign="top" style="width: 500px; line-height: 150%;"><h3>
+        {{ npp_text }}
+      </h3></td> 
+
+      <td>
+        <img width="500px" style="margin-bottom: 10px" src="{{ url_for('static', filename="images/npp1.jpg")  }}"/><br>
+        <img width="500px" src="{{ url_for('static', filename="images/npp2.jpg")  }}"/> 
+      </td>      
+
+    </tr></table>
+
+    <h1 style="text-align: left;">
+      Workshopping 
+    </h1>
+
+    <h2>
+      To get involved, join <a href="https://www.facebook.com/snsworkshopping"><b>the Facebook page</b></a> 
+    </h2>
+
+    <table cellpadding="10" cellspacing="10" style="margin-left: -20px;">
+
+      <td style="width: 500px; line-height: 150%;"><h3>
+        {{ workshopping_text }}
+      </h3></td>  
+    
+    </table>
+
+  </div>
+
+{% endblock%}
