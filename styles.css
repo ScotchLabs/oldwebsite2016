@@ -1,9 +1,12 @@
-body { 
+@fontface {
+	font-family: Yataghan;
+	src: url(yataghan.ttf);
+}
+body {
 
-background: #222233;
-color: #AACCFF;
-font-family: 'Montserrat', sans-serif;
-
+background: #e26f1b;
+color: #000;
+font-family: 'Yataghan', sans-serif;
 
 }
 
@@ -12,6 +15,7 @@ font-family: 'Montserrat', sans-serif;
 
 
 .content {
+	max-width: 100%;
 	height: 400px;
 	width: 800px;
 	position: absolute;
@@ -24,24 +28,34 @@ font-family: 'Montserrat', sans-serif;
 
     a {
     text-decoration-style: none;
-    color: #AACCFF;
+    color: #fff;
 
 	}
-   
+
 }
 
+a {
+	text-decoration: none;
+	color: #fff;
+}
 
 #hi{
 	font-size: 60px;
 	text-align: left;
 }
- #name {
+ #reserve {
 
  	font-size: 60px;
-    margin-bottom: 20px;
+    margin-top: -40px;
 
  }
 
+#addams {
+	max-width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
  #proj{
     margin-top: 20px;
 
