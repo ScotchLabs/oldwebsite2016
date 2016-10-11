@@ -1,6 +1,6 @@
 @fontface {
-	font-family: Yataghan;
-	src: url(yataghan.ttf);
+	font-family: 'Yataghan';
+	src: url('./yataghan.ttf');
 }
 body {
 
