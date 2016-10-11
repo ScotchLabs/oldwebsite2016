@@ -25,29 +25,17 @@ font-family: 'Yataghan', sans-serif;
     right: 0;
     margin: auto;
     text-align: left;
-
-    a {
-    text-decoration-style: none;
-    color: #fff;
-
 	}
 
-}
 
 a {
 	text-decoration: none;
 	color: #fff;
 }
 
-#hi{
-	font-size: 60px;
-	text-align: left;
-}
  #reserve {
-
  	font-size: 60px;
-    margin-top: -40px;
-
+  margin-top: -40px;
  }
 
 #ayy-lmao {
@@ -60,7 +48,3 @@ a {
 	bottom: 0;
 	left: 0;
 }
- #proj{
-    margin-top: 20px;
-
- }
